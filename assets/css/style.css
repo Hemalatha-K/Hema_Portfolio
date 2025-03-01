@@ -8,6 +8,43 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+  /* Center align Work Experience section */
+  #about .content {
+    text-align: center;
+}
+
+/* Underline Work Experience heading */
+#about h3 {
+    text-decoration: underline;
+}
+
+/* Left align bullet points under Work Experience */
+#about ul {
+    text-align: left;
+    list-style-position: inside;
+}
+/* Remove gap between Skills and Work Experience */
+#skills {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#about {
+    margin-top: 0;
+    
+}
+#about {
+  padding-top: 100px; /* Adjust according to header height */
+}
+
+/* Remove extra space between Work Experience and Skills */
+
+
+#skills {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
